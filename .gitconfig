@@ -1,0 +1,9 @@
+[user]
+  name = DaniPoot
+  email = danielpoot.uc2@gmail.com
+[core]
+  editor = nvim
+[init]
+  defaultBranch = main
+[url "https://"]
+	insteadOf = git://
