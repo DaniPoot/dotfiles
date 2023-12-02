@@ -13,33 +13,33 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Install plugin modules
 require("lazy").setup("plugins.modules", {
-	-- defaults = {
-	-- 	lazy = false,
-	-- 	version = nil,
-	-- },
-	install = {
-		missing = true,
-	},
-	checker = {
-		enabled = true,
-		notify = false,
-	},
-	change_detection = {
-		enabled = true,
-		notify = false,
-	},
-    performance = {
-        rtp = {
-            -- disable some rtp plugins
-            disabled_plugins = {
-                "gzip",
-                "tarPlugin",
-                "tohtml",
-                "tutor",
-                "zipPlugin",
-            },
-        },
+  -- defaults = {
+  -- 	lazy = false,
+  -- 	version = nil,
+  -- },
+  install = {
+    missing = true,
+  },
+  checker = {
+    enabled = true,
+    notify = false,
+  },
+  change_detection = {
+    enabled = true,
+    notify = false,
+  },
+  performance = {
+    rtp = {
+      -- disable some rtp plugins
+      disabled_plugins = {
+        "gzip",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },
     },
+  },
 })
 
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme rose-pine-moon")
