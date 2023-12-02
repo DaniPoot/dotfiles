@@ -41,8 +41,8 @@ local options = {
   title = true,                            -- set the title of window to the value of the titlestring
 }
 
+vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
 
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
-
